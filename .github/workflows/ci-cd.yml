@@ -168,5 +168,5 @@ jobs:
         shell: cmd
         run: |
           echo Stopping old containers...
-          cd /d D:\Môn học\Nam 4\Lap Trinh Huong Dich Vu\22654301_TranDuBao_EProject-1\EProject-Phase-1\EProject-Phase-1>
+          cd /d D:\Môn học\Nam 4\Lap Trinh Huong Dich Vu\22654301_TranDuBao_EProject-1\EProject-Phase-1\EProject-Phase-1
           docker-compose down --remove-orphans
