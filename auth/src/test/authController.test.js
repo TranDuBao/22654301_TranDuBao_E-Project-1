@@ -15,11 +15,11 @@ describe("User Authentication", () => {
     await app.connectDB();
     app.start();
   });
-
+  // 3 dong
   after(async () => {
-    // await app.authController.authService.deleteTestUsers();
-    // await app.disconnectDB();
-    // app.stop();
+    await app.authController.authService.deleteTestUsers();
+    await app.disconnectDB();
+    app.stop();
   });
 
   describe("POST /register", () => {
